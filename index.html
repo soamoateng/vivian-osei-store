@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vivian Osei Store - Online Store</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+    <div class="container-fluid p-0">
+        <div class="row g-0">
+            <div class="col-lg-1 d-none d-lg-block elecxo-sidebar p-3 text-center">
+                <!-- <h4 class="elecxo-brand-text">Vivian Osei Store</h4> -->
+                <!-- <p class="elecxo-slogan">EXPECT MORE. PAY LESS.</p>
+                <div class="elecxo-tools-text">TOOLS:</div> -->
+            </div>
+
+            <div class="col-lg-11 main-content-area">
+                
+                <nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom sticky-top">
+                    <div class="container-fluid">
+                        <div class="d-flex align-items-center w-100">
+                            <h4 class="mb-0 me-4 fw-bold">Vivian Osei Store</h4>
+                            
+                            <!-- <form class="d-flex mx-auto w-50">
+                                <div class="input-group">
+                                    <input type="search" class="form-control" placeholder="Search your Item" aria-label="Search">
+                                    <button class="btn btn-outline-secondary" type="submit"><i class="fas fa-search"></i></button>
+                                </div>
+                            </form> -->
+                            
+                            <div class="d-flex align-items-center ms-3">
+                                <!-- <a href="login.html" class="btn btn-link text-dark"><i class="fas fa-user-circle fa-lg"></i></a> -->
+                                <button class="btn btn-link text-dark position-relative" id="cart-button">
+                                    <i class="fas fa-shopping-cart fa-lg"></i>
+                                    <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger" id="cart-count" style="display: none;">0</span>
+                                </button>
+                                <!-- <a href="#" class="btn btn-link text-dark"><i class="fas fa-bell fa-lg"></i></a> -->
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+
+                <div class="p-4">
+                    <div class="row">
+                        <div class="col-lg-8">
+                            
+
+                            <div class="row g-4 mb-4">
+                                <div class="col-md-4">
+                                    <div class="card product-card h-100">
+                                        <img class="card-img-top" style="width:100%; height:70%; object-fit: cover" src="img/5-Storage-Bowls-Set.png" alt="img/5-Storage-Bowls-Set.png">
+                                        <div class="card-body text-center">
+                                            <h5 class="card-title">5 Storage Bowls Set</h5>
+                                            <p class="text-danger fw-bold">GH₵ 150.00</p>
+                                            <button class="btn btn-sm btn-outline-primary add-to-cart" data-id="001" data-name="5 Storage Bowls Set" data-price="150.00">Add to Cart</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="card product-card h-100">
+                                        <img class="card-img-top" style="width:100%; height:70%; object-fit: cover" src="img/AILYONS-Rice-Cooker.png" alt="img/AILYONS-Rice-Cooker.png">
+                                        <div class="card-body text-center">
+                                            <h5 class="card-title">AILYONS Rice Cooker</h5>
+                                            <p class="text-danger fw-bold">GH₵ 418.00</p>
+                                            <button class="btn btn-sm btn-outline-primary add-to-cart" data-id="002" data-name="AILYONS Rice Cooker" data-price="418.00">Add to Cart</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="card product-card h-100">
+                                        <img class="card-img-top" style="width:100%; height:70%; object-fit: cover" src="img/Gas-Burner-Valve.png" alt="img/Gas-Burner-Valve.png">
+                                        <div class="card-body text-center">
+                                            <h5 class="card-title">Gas Burner Valve</h5>
+                                            <p class="text-danger fw-bold">GH₵ 50.00</p>
+                                            <button class="btn btn-sm btn-outline-primary add-to-cart" data-id="003" data-name="Gas Burner Valve" data-price="50.00">Add to Cart</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row g-4 mb-4">
+                                <div class="col-md-4">
+                                    <div class="card product-card h-100">
+                                        <img class="card-img-top" style="width:100%; height:70%; object-fit: cover" src="img/Standing-Broom.png" alt="img/Standing-Broom.png">
+                                        <div class="card-body text-center">
+                                            <h5 class="card-title">Standing Broom</h5>
+                                            <p class="text-danger fw-bold">GH₵ 60.00</p>
+                                            <button class="btn btn-sm btn-outline-primary add-to-cart" data-id="004" data-name="Standing Broom" data-price="60.00">Add to Cart</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="card product-card h-100">
+                                        <img class="card-img-top" style="width:100%; height:70%; object-fit: cover" src="img/12-Stainless-Steel-Spoons.png" alt="img/12-Stainless-Steel-Spoons.png">
+                                        <div class="card-body text-center">
+                                            <h5 class="card-title">12 Stainless Steel Spoons</h5>
+                                            <p class="text-danger fw-bold">GH₵ 68.00</p>
+                                            <button class="btn btn-sm btn-outline-primary add-to-cart" data-id="005" data-name="12 Stainless Steel Spoons" data-price="68.00">Add to Cart</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="card product-card h-100">
+                                        <img class="card-img-top" style="width:100%; height:70%; object-fit: cover" src="img/2-Layers-Lunch-Box.png" alt="img/2-Layers-Lunch-Box.png">
+                                        <div class="card-body text-center">
+                                            <h5 class="card-title">2 Layers Lunch Box</h5>
+                                            <p class="text-danger fw-bold">GH₵ 79.00</p>
+                                            <button class="btn btn-sm btn-outline-primary add-to-cart" data-id="006" data-name="2 Layers Lunch Box" data-price="79.00">Add to Cart</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row g-4 mb-4">
+                                <div class="col-md-4">
+                                    <div class="card product-card h-100">
+                                        <img class="card-img-top" style="width:100%; height:70%; object-fit: cover" src="img/3-Frying-Pans-Set.png" alt="img/3-Frying-Pans-Set.png">
+                                        <div class="card-body text-center">
+                                            <h5 class="card-title">3 Frying Pans Set</h5>
+                                            <p class="text-danger fw-bold">GH₵ 450.00</p>
+                                            <button class="btn btn-sm btn-outline-primary add-to-cart" data-id="007" data-name="3 Frying Pans Set" data-price="450.00">Add to Cart</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="card product-card h-100">
+                                        <img class="card-img-top" style="width:100%; height:70%; object-fit: cover" src="img/Water-Bottle.png" alt="img/Water-Bottle.png">
+                                        <div class="card-body text-center">
+                                            <h5 class="card-title">Water Bottle</h5>
+                                            <p class="text-danger fw-bold">GH₵ 66.00</p>
+                                            <button class="btn btn-sm btn-outline-primary add-to-cart" data-id="008" data-name="Water Bottle" data-price="66.00">Add to Cart</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="card product-card h-100">
+                                        <img class="card-img-top" style="width:100%; height:70%; object-fit: cover" src="img/3-Cooking-Pots-Set.png" alt="img/3-Cooking-Pots-Set.png">
+                                        <div class="card-body text-center">
+                                            <h5 class="card-title">3 Cooking Pots Set</h5>
+                                            <p class="text-danger fw-bold">GH₵ 208.00</p>
+                                            <button class="btn btn-sm btn-outline-primary add-to-cart" data-id="009" data-name="3 Cooking Pots Set" data-price="208.00">Add to Cart</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="col-lg-4">
+                            <!--<h5>Shop by Brands</h5>
+                            <div class="row g-2 mb-4">
+                                <div class="col-4"><div class="brand-card p-2 border"><div class="dummy-img bg-light">JBL</div></div></div>
+                                <div class="col-4"><div class="brand-card p-2 border"><div class="dummy-img bg-light">Bose</div></div></div>
+                                <div class="col-4"><div class="brand-card p-2 border"><div class="dummy-img bg-light">HP</div></div></div>
+                                </div>
+
+                             <div class="card p-3" style="background-color: #f8f9fa;">
+                                <div class="row align-items-center">
+                                    <div class="col-7">
+                                        <h5 class="fw-bold">boAt Bassheads 900</h5>
+                                        <p class="small mb-1">On-Ear Wired Headphones</p>
+                                        <span class="text-danger fw-bold">$49</span>
+                                    </div>
+                                    <div class="col-5">
+                                        <div class="dummy-img dummy-img-large" style="height: 100px; width: 100px; margin: 0 auto;">Promo Image</div>
+                                    </div>
+                                </div>
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+
+                </div>
+        </div>
+    </div>
+    
+    <div class="modal fade" id="cartModal" tabindex="-1" aria-labelledby="cartModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-scrollable">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="cartModalLabel"><i class="fas fa-shopping-cart me-2"></i>Your Cart</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <ul id="cart-items-list" class="list-group"></ul>
+            <div class="mt-3 pt-3 border-top d-flex justify-content-between fw-bold">
+                <span>Total:</span>
+                <span id="cart-total">$0.00</span>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Continue Shopping</button>
+            <button type="button" class="btn btn-success" id="checkout-btn">Checkout</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,109 @@
+/* Custom Styles for Elecxo UI */
+
+/* --------------------
+   Layout & Typography
+   -------------------- */
+body {
+    background-color: #f7f7f7; /* Light background for the overall app */
+}
+
+/* Left Vertical Sidebar Styling */
+.elecxo-sidebar {
+    height: 100vh;
+    background-color: #ffffff;
+    border-right: 1px solid #ddd;
+    position: sticky; 
+    top: 0;
+}
+/* ... (Keep existing elecxo-brand-text and elecxo-slogan styles) ... */
+
+/* --------------------
+   Image Placeholders (Dummy Images)
+   -------------------- */
+.dummy-img {
+    background-color: #e0e0e0;
+    color: #888;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.8rem;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 5px;
+    margin: 5px auto;
+}
+
+.dummy-img-large {
+    height: 150px;
+    width: 100%;
+}
+
+.dummy-img-medium {
+    height: 100px;
+    width: 100%;
+}
+
+.dummy-img-small {
+    height: 50px;
+    width: 50px;
+    min-width: 50px; /* Ensures small items hold shape */
+}
+
+.brand-card .dummy-img {
+    height: 40px;
+    width: 100%;
+    margin: 0;
+}
+
+.product-card .dummy-img {
+    height: 150px;
+}
+
+/* --------------------
+   Navigation & Cards
+   -------------------- */
+.categories-nav .category-item {
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    color: #333;
+    transition: background-color 0.2s;
+}
+
+.categories-nav .category-item:hover,
+.categories-nav .category-item.active {
+    background-color: #4CAF50;
+    color: #fff;
+    font-weight: bold;
+}
+
+.view-all-link {
+    font-size: 0.9rem;
+    color: #4CAF50 !important;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+/* Product Cards */
+.product-card {
+    border: 1px solid #eee;
+    transition: box-shadow 0.2s;
+}
+
+.product-card:hover {
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+/* Brand/Small Product Cards */
+.brand-card, .product-card-small {
+    border-radius: 5px;
+    background-color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.product-card-small img {
+    max-height: 60px;
+    width: auto;
+    display: block;
+    margin: auto;
+}
